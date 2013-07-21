@@ -48,3 +48,52 @@ h1.page-title:after {
 	padding-top: 20px;
 	text-align: center;
 }
+
+.social-facebook {
+	display: inline-block;
+	background: url("../img/facebook.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-twitter {
+	display: inline-block;
+	background: url("../img/twitter.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-linkedin {
+	display: inline-block;
+	background: url("../img/linkedin.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-google-plus {
+	display: inline-block;
+	background: url("../img/google-plus.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-wordpress {
+	display: inline-block;
+	background: url("../img/wordpress.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-github {
+	display: inline-block;
+	background: url("../img/github.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
+
+.social-email {
+	display: inline-block;
+	background: url("../img/email.png") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+}
