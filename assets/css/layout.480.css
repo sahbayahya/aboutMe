@@ -62,7 +62,6 @@
   width: 100%;
   overflow: none;
   clear: left;
-/*  text-align: right;*/
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -73,4 +72,8 @@
 
 #calendar_frame {
 	height: 350px;
+}
+
+.pull-right {
+  float: none;
 }
