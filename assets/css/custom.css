@@ -59,6 +59,14 @@
   padding: 15px;
 }
 
+.navi-wrapper a.active {
+  color: #A00000;
+}
+
+.navi-wrapper a:hover {
+  color: #A00000;
+}
+
 .navi-wrapper:before {
   content: '';
   font-size: 24px;
