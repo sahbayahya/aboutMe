@@ -6,11 +6,14 @@
 }
 
 
+
 #wrap {
-	width: 1118px;
-	margin:0 auto;
-	background-color: #ffffff;
+  width: 1118px;
+  margin:0 auto;
+  background-color: #ffffff;
 }
+
+@media only screen and (min-width : 940px) and (max-width: 1200px) {#wrap {width: 100%;}}
 
 #content {
 	width: 800px;
