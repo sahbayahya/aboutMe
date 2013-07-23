@@ -13,14 +13,14 @@
 		<div id="wrap">
 			<!-- [s] Header -->
 			<div id="header">
-				ABOUT ME
+				<div id="header-logo"><a href="index.html">ABOUT ME</a></div>
 				<div class="navi-wrapper">
 					<ul class="inline">
 						<li><a href="index.html">HOME</a></li>
 						<li><a href="about.html">ABOUT</a></li>
 						<li><a href="resume.html">RESUME</a></li>
 						<li><a href="work.html">WORK</a></li>
-						<li><a href="#">CONTACT</a></li>
+						<li><a href="#" class="active">CONTACT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -30,10 +30,9 @@
 			<div id="content">
 
 				<!-- [s] Main Content -->
-				<div class="content-inner-wrapper">
-					<div class="main-content-wrapper">
-						<h1 class="page-title">CONTACT</h1>
-						<p><br /></p>
+				<div id="content-inner-wrapper">
+					<h1 class="page-title">CONTACT</h1>
+					<div id="main-content-wrapper">
 						<h3 class="content-title">SIMPLE CONTACT</h3>
 						<p>Most recommended way to contact me is email.<br />However you can also contact me using facebook / twitter / linkedin too!</p>
 						<p>
@@ -47,7 +46,7 @@
 						<p>Interested in my works or working together? Tell me your story and I'll follow up with you as soon as possible</p>
 						<p><strong>Before you email me: </strong>Please keep your email short! <br>Also I don't take any <strong>guest posts, advertising, or request to promote</strong> your product, book, website, service, or blog post</p>
 						<br><br>
-						<form id="contact-form" class="form-horizontal">
+						<form method="post" id="contact-form" action="mailto:sanghyuk.chun@gmail.com?subject=send_from_aboutme" enctype="text/plain" class="form-horizontal" onsubmit="location.href='thanks.html';">
 							<div class="control-group">
 								<label class="control-label" for="name">Name</label>
 								<div class="controls">
@@ -78,7 +77,7 @@
 
 							<div class="form-actions">
 							  <button type="submit" class="btn btn-primary">Send</button>
-							  <button type="button" class="btn">Cancel</button>
+							  <button type="button" id="contact_cancle_btn" class="btn">Cancel</button>
 							</div>
 
 						</form>
@@ -105,5 +104,6 @@
 		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="assets/js/bootstrap.js"></script>
+		<script src="assets/js/aboutMe.js"></script>
 	</body>
 </html>
