@@ -21,6 +21,10 @@
   padding: 40px;
 }
 
+#main-content-wrapper {
+  padding-top: 60px;
+}
+
 #header {
   width: 800px;
   margin:0px auto;
