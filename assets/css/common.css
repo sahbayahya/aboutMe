@@ -5,6 +5,18 @@
   src: local('Lato Light'), local('Lato-Light'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
 }
 
+
+/*!
+ * CSS from  Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+
 .clearfix {
   *zoom: 1;
 }
@@ -88,6 +100,10 @@ a:hover,
 a:focus {
   color: #005580;
   text-decoration: underline;
+}
+
+a.red {
+  color: #A00000;
 }
 
 sub,
@@ -678,7 +694,6 @@ select:focus:invalid:focus {
           box-shadow: 0 0 6px #f8b9b7;
 }
 
-
 .radio,
 .checkbox {
   min-height: 20px;
@@ -990,6 +1005,7 @@ table {
 .table-hover tbody tr.info:hover > td {
   background-color: #c4e3f3;
 }
+
 .btn {
   display: inline-block;
   *display: inline;
@@ -1383,10 +1399,7 @@ input[type="submit"].btn.btn-mini {
 
 
 
-
-
-
-
+/* class about simple style */
 .text-left {
   text-align: left;
 }
@@ -1399,6 +1412,37 @@ input[type="submit"].btn.btn-mini {
   text-align: center;
 }
 
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.affix {
+  position: fixed;
+}
+
+.mgT0 {
+  margin-top: 0;
+}
+
+.mgB45 {
+  margin-bottom: 45px; 
+}
 
 
 
@@ -1410,7 +1454,13 @@ input[type="submit"].btn.btn-mini {
 
 
 
+/*!
+ * Custom css by Sanghyuk Chun
+ */
 
+
+
+/* css about wrap */
 #wrap {
   width: 1118px;
   margin:0 auto;
@@ -1419,6 +1469,9 @@ input[type="submit"].btn.btn-mini {
 
 @media only screen and (min-width : 940px) and (max-width: 1200px) {#wrap {width: 100%;}}
 
+
+
+/* content */
 #content {
 	width: 800px;
 	margin:20px auto;
@@ -1440,6 +1493,22 @@ input[type="submit"].btn.btn-mini {
   padding-top: 20px;
 }
 
+.front-image-wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%
+}
+
+.image-wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+
+
+/* header */
 #header {
   width: 800px;
   margin:0px auto;
@@ -1464,6 +1533,9 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
 }
 
+
+
+/* navigation */
 .navi-wrapper ul {
   font-family: "Lato";
   font-size: 15px;
@@ -1515,20 +1587,18 @@ input[type="submit"].btn.btn-mini {
   padding-bottom: 15px;
 }
 
+
+
+/* footer */
 #footer {
 	margin: 0 auto;
   padding: 60px 0;
   font-size: 0.9em;
 }
 
-.mgT0 {
-  margin-top: 0;
-}
 
-.mgB45 {
-  margin-bottom: 45px; 
-}
 
+/* page and content titles */
 h1.page-title {
   font-family: "Lato";
   font-size: 24px;
@@ -1576,23 +1646,9 @@ h4.content-sub-title {
   margin: 0;
 }
 
-a.red {
-  color: #A00000;
-}
 
-.front-image-wrapper {
-  padding-top: 20px;
-  padding-bottom: 40px;
-  text-align: center;
-  width: 100%
-}
 
-.image-wrapper {
-	padding-top: 20px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
+/* social icons in footer */
 .social-facebook {
 	display: inline-block;
 	background: url("../img/facebook.png") no-repeat 0 0;
@@ -1640,28 +1696,4 @@ a.red {
 	background: url("../img/email.png") no-repeat 0 0;
 	width: 24px;
 	height: 24px;
-}
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
-.affix {
-  position: fixed;
 }
