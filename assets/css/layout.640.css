@@ -42,3 +42,7 @@
 .form-horizontal .controls {
   margin-left: 100px;
 }
+
+#calendar_frame {
+	height: 500px;
+}
