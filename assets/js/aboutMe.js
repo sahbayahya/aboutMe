@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	if($('#github_work').length > 0) {
+		$.support.cors = true;
 		$.ajax({
 			url: 'https://api.github.com/users/SanghyukChun/repos', 
 			dataType: 'json', 
