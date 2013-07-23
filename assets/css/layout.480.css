@@ -26,6 +26,9 @@
 	font-size: 0.9em;
 }
 
+.front-image-wrapper {
+	display: none;
+}
 #content-inner-wrapper {
 	margin: 0 auto;
 }

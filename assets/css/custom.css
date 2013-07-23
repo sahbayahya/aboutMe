@@ -169,6 +169,13 @@ a.red {
   color: #A00000;
 }
 
+.front-image-wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%
+}
+
 .image-wrapper {
 	padding-top: 20px;
 	padding-bottom: 40px;
