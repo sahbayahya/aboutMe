@@ -26,6 +26,13 @@
   padding-bottom: 30px;
 }
 
+.center-content-wrapper {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 24px;
+  padding-top: 20px;
+}
+
 #header {
   width: 800px;
   margin:0px auto;
@@ -156,6 +163,17 @@ h4.content-sub-title {
   color: #454545;
   padding: 0;
   margin: 0;
+}
+
+a.red {
+  color: #A00000;
+}
+
+.front-image-wrapper {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%
 }
 
 .image-wrapper {
