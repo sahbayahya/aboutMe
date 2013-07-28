@@ -1419,7 +1419,7 @@ input[type="button"].btn-block {
   padding-top: 20px;
 }
 
-.front-image-wrapper {
+#front-image-wrapper {
   padding-top: 60px;
   padding-bottom: 40px;
   text-align: center;

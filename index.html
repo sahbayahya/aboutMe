@@ -36,7 +36,7 @@
 	<!-- [e] Header //-->
 
 	<!-- Front Image -->
-	<div class="front-image-wrapper"><img src="assets/img/pic_1.jpg" alt="profile"></div>
+	<div id="front-image-wrapper"><img src="" alt="front"></div>
 	<div id="content">
 
 		<!-- [s] Main Content -->
@@ -81,6 +81,15 @@
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/common.js"></script>
 <script type="text/javascript" src="assets/js/respond.min.js"></script>
+<script>
+	$(document).ready(function(){
+		var rand = Math.floor((Math.random()*2)+1);
+		if (rand == 2)
+			rand = 5;
+		var src = 'assets/img/pic_' + rand + '.jpg';
+		$('#front-image-wrapper>img').attr('src',src);
+	})
+</script>
 <!-- [e] Scripts //-->
 </body>
 </html>
